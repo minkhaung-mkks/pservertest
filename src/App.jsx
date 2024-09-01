@@ -5,7 +5,7 @@ import axios from "axios";
 // Define the base URL as a constant
 const DEV = "http://0.0.0.0:8899";
 const PROD = "https://zonal-nessi-mkks-dde95a1c.koyeb.app";
-const BASE_URL = DEV;
+const BASE_URL = PROD;
 
 function App() {
   const [entries, setEntries] = useState([]);
